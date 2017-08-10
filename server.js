@@ -4,7 +4,9 @@ var app = express();
 var port = process.env.PORT || 8080;
 
 app.get('/', function(req, res) {
-  res.send('Hello world');
+  console.log(req.headers['user-agent']);
+  console.log(req.headers['accept-language']);
+  res.end(JSON.stringify(req.headers));
 });
 
 app.listen(port, function () {
