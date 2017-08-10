@@ -3,7 +3,7 @@ const express = require('express');
 var app = express();
 var port = process.env.PORT || 8080;
 
-app.get('/', function(req, res) {
+app.get('/api/whoami', function(req, res) {
 
   const ipaddress = req.headers['x-forwarded-for'] || "";
   let language = req.headers['accept-language'] || "";
