@@ -1,0 +1,22 @@
+{
+  "name": "reqheaderparser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faktotum85/fcc-request-header-parser.git"
+  },
+  "author": "Simon Weller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faktotum85/fcc-request-header-parser/issues"
+  },
+  "homepage": "https://github.com/faktotum85/fcc-request-header-parser#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
